@@ -121,9 +121,9 @@ a {
 	text-decoration: none;
 }
 
-/*a:visited {
+a:visited {
 	color: #1756a9;
-}*/
+}
 
 a:hover {
 	text-decoration: underline;
@@ -241,8 +241,6 @@ ul ul {
 }*/
 #about-container {
 	background-color: #eeeeee;
-	/*#dedede*/
-	;
 }
 
 @media (min-width: 40rem) {
@@ -298,12 +296,13 @@ ul ul {
 /* Projects ----------------------------------------------------------------- */
 
 #projects {
+	float: left;
 	margin-bottom: 40px;
 }
 
 .project-box {
-	display: flex;
-	margin-top: 10px;
+	float: left;
+	margin-bottom: 40px;
 }
 
 .project-image {
